@@ -131,10 +131,10 @@
 		732A112E1F93A7DF00AC9F54 /* ChatWithFirebase */ = {
 			isa = PBXGroup;
 			children = (
+				73B199191F93B8A30001F421 /* Services */,
+				73B199181F93B89A0001F421 /* Workers */,
+				73B199171F93B8910001F421 /* Models */,
 				739AD9401F93B252005E1731 /* Resources */,
-				732A114A1F93AED500AC9F54 /* Workers */,
-				732A11491F93AECB00AC9F54 /* Services */,
-				732A11481F93AEC600AC9F54 /* Models */,
 				732A11471F93ADAF00AC9F54 /* Scenes */,
 			);
 			path = ChatWithFirebase;
@@ -232,27 +232,6 @@
 			path = Scenes;
 			sourceTree = "<group>";
 		};
-		732A11481F93AEC600AC9F54 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
-		732A11491F93AECB00AC9F54 /* Services */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Services;
-			sourceTree = "<group>";
-		};
-		732A114A1F93AED500AC9F54 /* Workers */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Workers;
-			sourceTree = "<group>";
-		};
 		739AD9401F93B252005E1731 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -262,6 +241,27 @@
 				732A113B1F93A7DF00AC9F54 /* Info.plist */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		73B199171F93B8910001F421 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		73B199181F93B89A0001F421 /* Workers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Workers;
+			sourceTree = "<group>";
+		};
+		73B199191F93B8A30001F421 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
 			sourceTree = "<group>";
 		};
 		7ACFB2BF02D03254075ACAEA /* Frameworks */ = {
