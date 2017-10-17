@@ -20,6 +20,7 @@ enum Chat
   {
     struct Request
     {
+        var nameGroup: String
     }
     struct Response
     {
